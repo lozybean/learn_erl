@@ -10,7 +10,7 @@
 -author("Administrator").
 
 %% API
--export([count_characters/1]).
+-export([count_characters/1, count_characters/2]).
 
 count_characters(Str) ->
   count_characters(Str, #{}).
