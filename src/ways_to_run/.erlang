@@ -1,0 +1,7 @@
+io:format("Hi, I'm in your .erlang file~n").
+
+Dir1 = "C://Users//Administrator//IdeaProjects//learn_erl//src//ways_to_run".
+code:add_patha(Dir1).
+
+%%Dir2 = "C://Users//Administrator//IdeaProjects//learn_erl//".
+%%code:add_pathsz([Dir2]).
